@@ -1,48 +1,122 @@
-
-
-
 .header1 {
-
-  height: 80px;
+height: 80px;
 }
-
-
-
+.vl {
+border: 1px solid white;
+height: 42px;
+width: 1px
+padding-bottom: 5px;
+margin-bottom: 5px;
+}
 #navlink {
-  font-family: georgia;
-  font-size: 15px;
-  text-align: center;
-  font-style: italic;
+font-family: georgia;
+font-size: 15px;
+text-align: center;
+font-style: italic;
+padding-bottom: 15px;
 }
-
-#navigation {
-  height: 20px;
-  font-size: 15px;
-  background-color: #3355aa;
+.navigation {
+height: 50px;
+font-size: 15px;
+background-color: #3355aa;
 }
-
-div.form-group input[type=button] {
-    float: left;
-    width: 20%;
-    padding: 10px;
-    background: #2196F3;
-    color: white;
-    font-size: 17px;
-    border: 1px solid grey;
-    border-left: none;
-    cursor: pointer;
+#nevigationsearchbar {
+float: left;
+margin-top: 5px;
+margin-bottom: 5px;
 }
- div.form-group input[type=button]:hover {
-    background: #0b7dda;
+#nevigationsearchbtn {
+float: left;
+width: 50%;
+margin-top: 5px;
+margin-bottom: 5px;
+background: #2196F3;
+color: white;
+font-size: 17px;
+border: 1px solid grey;
+border-left: none;
+cursor: pointer;
 }
-
-
-
-.bannersection {
-
-  padding-top: 35px;
-  padding-left: 10px;
-  padding-bottom: 45px;
-
+div.form-group input[type=button]:hover {
+background: #0b7dda;
 }
-
+.card-block p {
+text-align: center;
+font-style: italic;
+font-family: georgia;
+}
+.text-header h3 {
+font-family: georgia;
+padding-top: 25px;
+font-size: 16px;
+color: #3355aa;
+}
+.text-header hr {
+border: solid;
+border-width: 2px;
+color: #FFFF00;
+size:16px;
+}
+.para-text p {
+font-family: georgia;
+font-size: 15px;
+}
+.notice-text p {
+font-style: italic;
+font-size: 15px;
+}
+.author-text p {
+font-size: 10px;
+}
+.author-text br {
+font-size: 15px;
+font-style: italic;
+}
+.text-header h4 {
+font-family: georgia;
+font-size: 15px;
+color: #3355aa;
+font-style: italic;
+}
+.section-box {
+padding-top: 45px;
+background-color: #f1f1f1f1;
+margin-bottom: 75px;
+}
+.section-box h2{
+text-align: center;
+font-family: georgia;
+padding-bottom: 5px;
+}
+.box {
+padding:1px;
+height: 400px;
+background-color: #a9a9a9;
+}
+.box-text p {
+font-size: 16px;
+text-align: center;
+font-family: georgia;
+color: #3355aa;
+}
+.footer {
+background-color: black;
+}
+#footlink {
+font-family: georgia;
+font-size: 14px;
+padding-top: 15px;
+}
+.foot-line hr {
+border: solid;
+border-width: 1px;
+width: 100%;
+color: #a9a9a9;
+size:10px;
+}
+.foot-text p {
+font-family: georgia;
+font-size: 12px;
+padding-top: 15px;
+color: #FFFFFF;
+}
