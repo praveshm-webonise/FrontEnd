@@ -10,7 +10,7 @@ margin-bottom: 5px;
 }
 #navlink {
 font-family: georgia;
-font-size: 15px;
+font-size: 16px;
 text-align: center;
 font-style: italic;
 padding-bottom: 15px;
@@ -28,8 +28,8 @@ margin-bottom: 5px;
 #nevigationsearchbtn {
 float: left;
 width: 50%;
-margin-top: 5px;
-margin-bottom: 5px;
+margin-top: 10px;
+margin-bottom: 10px;
 background: #2196F3;
 color: white;
 font-size: 17px;
@@ -89,8 +89,9 @@ font-family: georgia;
 padding-bottom: 5px;
 }
 .box {
-padding:1px;
-height: 400px;
+padding-top:5px;
+margin: 5px;
+height: 300px;
 background-color: #a9a9a9;
 }
 .box-text p {
@@ -106,17 +107,19 @@ background-color: black;
 font-family: georgia;
 font-size: 14px;
 padding-top: 15px;
+padding-bottom: 10px;
 }
 .foot-line hr {
 border: solid;
 border-width: 1px;
 width: 100%;
-color: #a9a9a9;
+color: #C0C0C0;
 size:10px;
 }
 .foot-text p {
 font-family: georgia;
 font-size: 12px;
 padding-top: 15px;
+padding-bottom: 35px;
 color: #FFFFFF;
 }
