@@ -121,9 +121,6 @@ font-family: georgia;
 color: #3355aa;
 }
 
-
-
-
 .footerbar {
   padding-top: 15px;
   padding-bottom: 35px;
@@ -140,13 +137,6 @@ color: #3355aa;
 
 }
 
-/*.navRightLink {
-  padding: 5px;
-  font-size: 10px;
-  font-family: georgia;
-  color:rgb(152,152,152);
-  border-right: 1px solid #808080;
-}*/
 .footerbar ul {
   padding: 0px;
   padding-left: inherit;
@@ -158,17 +148,16 @@ ul li {
 }
 
 
-.headerdataleft {
+.footerdataleft {
   float: right;
 
 }
 
-.headerdataleft-item {
+.footerdataleft-item {
   padding-left: 10px;
   padding-right: 10px;
   font-size: 11px;
   font-family: georgia;
-
   border-right: 1px solid #808080;
 }
 
@@ -188,6 +177,8 @@ ul li {
  text-decoration: none;
 }
 
+
+
 .anchor {
    color:rgb(152,152,152);
 }
@@ -198,5 +189,6 @@ ul li {
 }
 
 .end a{
+
   color: rgb(152,152,152);
 }
