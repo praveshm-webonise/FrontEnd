@@ -1,69 +1,80 @@
-.header1 {
-height: 80px;
+header {
+  height: 80px;
 }
-.vl {
-border: 1px solid white;
-height: 42px;
-width: 1px
-padding-bottom: 5px;
-margin-bottom: 5px;
+.logo {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
-#navlink {
-font-family: georgia;
-font-size: 16px;
-text-align: center;
-font-style: italic;
-padding-bottom: 15px;
+
+
+.navbar-default {
+  height: 50px;
+  background-color: #3355aa;
+  padding: 6px;
+
 }
-.navigation {
-height: 50px;
-font-size: 15px;
-background-color: #3355aa;
+
+
+.nav-item a {
+
+  padding: 10px;
+  font-size: 15px;
+  color: #FFFFFF;
+  font-style: italic;
 }
-#nevigationsearchbar {
-float: left;
-margin-top: 5px;
-margin-bottom: 5px;
+
+.search-form {
+  float: right;
+  margin-bottom: 20px;
 }
-#nevigationsearchbtn {
-float: left;
-width: 50%;
-margin-top: 10px;
-margin-bottom: 10px;
-background: #2196F3;
-color: white;
-font-size: 17px;
-border: 1px solid grey;
-border-left: none;
-cursor: pointer;
+.navbar-default button {
+
+  border: 2px solid;
+
 }
-div.form-group input[type=button]:hover {
-background: #0b7dda;
+
+.banner-container {
+  padding-top: 35px;
+  padding-bottom: 45px;
 }
-.card-block p {
-text-align: center;
-font-style: italic;
-font-family: georgia;
+
+.border-line {
+  border-left: 2px;
+  border-color: #3d3d3d;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.card-img-top {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
+.card-text {
+  text-align: center;
+  font-style: italic;
+  font-family: georgia;
+  margin-bottom: 0px;
+  font-size: 14px;
 }
 .text-header h3 {
+border-bottom: solid orange;
+border-width: 2px;
 font-family: georgia;
 padding-top: 25px;
 font-size: 16px;
 color: #3355aa;
 }
-.text-header hr {
-border: solid;
-border-width: 2px;
-color: #FFFF00;
-size:16px;
-}
+
+
 .para-text p {
 font-family: georgia;
-font-size: 15px;
+font-size: 14px;
 }
 .notice-text p {
 font-style: italic;
-font-size: 15px;
+font-size: 14px;
 }
 .author-text p {
 font-size: 10px;
@@ -81,45 +92,111 @@ font-style: italic;
 .section-box {
 padding-top: 45px;
 background-color: #f1f1f1f1;
-margin-bottom: 75px;
+padding-bottom: 75px;
 }
 .section-box h2{
 text-align: center;
 font-family: georgia;
-padding-bottom: 5px;
+padding-top: 25px;
+padding-bottom: 25px;
+font-size: 28px;
+
 }
+.card {
+  border-radius: 5px;
+  padding-bottom: 5px;
+}
+
 .box {
-padding-top:5px;
-margin: 5px;
-height: 300px;
-background-color: #a9a9a9;
+margin: 10px;
+height: 250px;
+background-color: #808080;
 }
-.box-text p {
+.box-text {
 font-size: 16px;
 text-align: center;
+padding: 0 50px;
+display: block;
 font-family: georgia;
 color: #3355aa;
 }
-.footer {
-background-color: black;
+
+
+
+
+.footerbar {
+  padding-top: 15px;
+  padding-bottom: 35px;
+  background-color: #333333;
 }
-#footlink {
-font-family: georgia;
-font-size: 14px;
-padding-top: 15px;
-padding-bottom: 10px;
+
+
+.footerdata-item{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 14px;
+  font-family: georgia;
+  border-right: 1px solid #808080;
+
 }
-.foot-line hr {
-border: solid;
-border-width: 1px;
-width: 100%;
-color: #C0C0C0;
-size:10px;
+
+/*.navRightLink {
+  padding: 5px;
+  font-size: 10px;
+  font-family: georgia;
+  color:rgb(152,152,152);
+  border-right: 1px solid #808080;
+}*/
+.footerbar ul {
+  padding: 0px;
+  padding-left: inherit;
+
 }
-.foot-text p {
-font-family: georgia;
-font-size: 12px;
-padding-top: 15px;
-padding-bottom: 35px;
-color: #FFFFFF;
+
+ul li {
+  display: inline;
+}
+
+
+.headerdataleft {
+  float: right;
+
+}
+
+.headerdataleft-item {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 11px;
+  font-family: georgia;
+
+  border-right: 1px solid #808080;
+}
+
+.end {
+  font-size: 11px;
+}
+
+.footerdata-item a:hover
+{
+ color: white;
+ text-decoration: none;
+}
+
+.fooerdataleft-item a:hover
+{
+ color: white;
+ text-decoration: none;
+}
+
+.anchor {
+   color:rgb(152,152,152);
+}
+
+.end {
+
+  border-top: 2px solid;
+}
+
+.end a{
+  color: rgb(152,152,152);
 }
